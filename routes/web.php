@@ -18,5 +18,6 @@ Route::resource('/contact', 'Dashboard\ContactController');
 //Route::patch('/projects/{id}', 'ProjectController@update');
 //
 //Route::delete('/projects/{id}', 'ProjectController@destroy');
+//Route::delete('/projects/{id}', 'ProjectController@destroy');
 Route::get('/dashboard', 'HomeController@index')->name('dashboard');
 Route::get('/', 'WebsiteController@index');
