@@ -2,7 +2,7 @@
 
 
 
-Auth::routes(['register' => false]);
+Auth::routes();
 //Route::resource('/test', 'Dashboard\AboutController@create');
 
 Route::resource('/about', 'Dashboard\AboutController');
